@@ -62,3 +62,12 @@ const typed=new Typed('.multiple-text',{
     backDelay:1000,
     loop:true
 });
+
+const type=new Typed('.multi-text',{
+    strings:['Hello','வணக்கம்','Bonjour',
+    'नमस्ते'],
+    typeSpeed:100,
+    backSpeed:100,
+    backDelay:1000,
+    loop:true
+});
